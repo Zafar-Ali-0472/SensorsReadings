@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensor Values"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/accelerometerXTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X-Axis: "
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/accelerometerYTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y-Axis: "
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/accelerometerZTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z-Axis: "
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/lightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light: "
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/proximityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proximity: "
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/gyroscopeXTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X-Axis: "
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/gyroscopeYTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y-Axis: "
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/gyroscopeZTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z-Axis: "
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/pressureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure: "
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
